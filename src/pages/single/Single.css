@@ -1,0 +1,7 @@
+.single {
+ 
+  display: flex;
+  background-color: rgb(42, 40, 40);
+  flex-wrap: wrap;
+  padding: 25px 0px 25px 0px;
+}
