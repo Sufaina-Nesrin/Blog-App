@@ -1,0 +1,80 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(42, 40, 40);
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  z-index: 999;
+}
+
+.topLeft {
+  display: flex;
+  flex: 3;
+  align-items: center;
+  justify-content: center;
+}
+.topRight {
+  display: flex;
+  flex: 3;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topCenter {
+  display: flex;
+  flex: 6;
+  justify-content: center;
+  font-weight: 200;
+}
+.topIcon {
+  padding-left: 10px;
+  color: #747474;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.profileImage {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 50px;
+  justify-self: flex-end;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.topListItem {
+  list-style: none;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #c4c0c0;
+  cursor: pointer;
+}
+.topbarSignup{
+  font-size: 18px;
+  font-weight: 300;
+  color: #c4c0c0;
+  cursor: pointer;
+  margin-right: 10px;
+  
+}
+.searchIcon {
+  color: #747474;
+ 
+}
+a{
+  text-decoration: none;
+}
